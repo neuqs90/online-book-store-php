@@ -53,6 +53,7 @@ Before running this project, ensure you have the following installed:
 
    - Open Any Browser
    - Paste The Below Url
+     
    ```URL
      http://localhost/phpmyadmin/
    ```
@@ -64,7 +65,8 @@ Before running this project, ensure you have the following installed:
 5. Execute Necessary Queries:
 
    - On Same Project Folder , Look For DATABASE-QUERY.txt File , And Open It.
-   - Now Paste First Querie :
+   - Now Paste First Query :
+     
    ```SQL
      create database book_store;
    ```
@@ -84,6 +86,7 @@ Before running this project, ensure you have the following installed:
 8. Open Project Home Page:
 
    - After Executing Every Single Query , Open Browser And Paste Below URL:
+     
    ```URL
      http://localhost/online-book-store-php/
    ```
