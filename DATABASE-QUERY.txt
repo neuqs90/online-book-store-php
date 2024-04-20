@@ -1,0 +1,35 @@
+1. Create Database : 
+
+	create database book_store;
+
+2. Create Users Data Table:
+
+	create table users ( userid varchar(100) ,  password varchar(100) , email varchar(100) ,dp_location varchar(100));
+
+3. Create Admin Data Table:
+
+	create TABLE admin ( userid varchar(100) , password varchar(100) , email varchar(100));
+
+4. Insert Default Admin In Admin Table : 
+
+	insert into admin VALUES ( "admin" , "27722772" , "admin@gmail.com" );
+
+5. Create Books Data Table :
+
+    CREATE TABLE booksdata (
+    
+        author_name VARCHAR(255),
+        book_name VARCHAR(255),
+        book_location VARCHAR(255),
+        poster_location VARCHAR(255),
+        fullname VARCHAR(255),
+        keywords VARCHAR(255),
+        id varchar(10)
+    );
+
+6. Insert Sample Books Data Into Books Data Table :
+
+    INSERT INTO books (id, author_name, book_name, book_location, poster_location, fullname, keywords) 
+    VALUES 
+    ('James Clear', 'Atomic Habits', 'BOOKS_PDF/ATOMIC_HABITS.pdf', 'POSTER/ATOMIC_HABITS.png', 'Atomic Habits', 'self,self development,atomic habits,habits,james clear','1'),
+    ('Robert C. Martin', 'Clean Code', 'BOOKS_PDF/Clean Code.pdf', 'POSTER/Clean Code.png', 'Clean Code', 'clean code , code,coding,robert,robert martin ,codes','2');
